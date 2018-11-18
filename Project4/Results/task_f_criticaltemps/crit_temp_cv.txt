@@ -1,0 +1,2 @@
+# By critical point		By Eq
+2.2775000000	2.2500000000

@@ -1,0 +1,8 @@
+T1:
+29.767
+
+T24:
+3235.675
+
+
+The data is obtained from: [10^4 cycles, 10^6 cycles]
