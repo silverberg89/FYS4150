@@ -5,11 +5,11 @@ P = ['Rune', 'Marius', 'Marcus', 'Samuel']
 
 # Structure
 Penalty = 100
+MAX = 1
 Players = len(P)
 
 # Calculation
 N = 38
-door = 0
 Sum = np.zeros(N+1)
 Pen = np.zeros(Players)
 ID = np.zeros(Players)
@@ -25,7 +25,7 @@ for i in range(1,N+1):
     #print('Pott etter omgang',i,':', int(Sum[i]),'NOK')
     Sum_best = Sum[-1]
     
-Roof = Sum[-1]/(Players-1)
+Roof = Sum[-1]/(Players-MAX)
 ####################################### One roof worst case
 Roof_break_omg = int(Roof/Pen[-1])
 print('\nMax payment:',int(Roof),'NOK','\nEarliest omg one roof case:',Roof_break_omg)
