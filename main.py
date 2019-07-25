@@ -10,6 +10,7 @@ Players = len(P)
 
 # Calculation
 N = 38
+door = 0
 Sum = np.zeros(N+1)
 Pen = np.zeros(Players)
 ID = np.zeros(Players)
